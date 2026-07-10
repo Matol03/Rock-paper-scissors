@@ -51,12 +51,12 @@ let playGame = (playerMove) => {
   document.querySelector(".pcMove").innerText = `Computer`;
   document.querySelector(
     ".playerIcon"
-  ).innerHTML = ` <img src="/rock_paper_scissors/${playerMove}.png" class="moveIcon">`;
+  ).innerHTML = ` <img src="${playerMove}.png" class="moveIcon">`;
 
   setTimeout(() => {
     document.querySelector(
       ".computerIcon"
-    ).innerHTML = `<img src="/rock_paper_scissors/${computerMove}.png" class="moveIcon">`;
+    ).innerHTML = `<img src="${computerMove}.png" class="moveIcon">`;
 
     setTimeout(() => {
       document.querySelector(".result").innerText = result;
