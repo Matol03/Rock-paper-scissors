@@ -113,21 +113,21 @@ let returnButtons = () => {
   onclick="
   playGame('rock');
   ">
-  <img class="rockIcon" src = "/rock_paper_scissors/rock.png" /> 
+  <img class="rockIcon" src = "rock.png" /> 
   </button>
   
   <button class="paperButton"
   onclick="
   playGame('paper');
   ">
-    <img class="paperIcon" src = "/rock_paper_scissors/paper.png" /> 
+    <img class="paperIcon" src = "paper.png" /> 
   </button>
   
   <button class="scissorsButton" 
   onclick="
   playGame('scissors');
   ">
-    <img class="scissorsIcon" src = "/rock_paper_scissors/scissors.png" /> 
+    <img class="scissorsIcon" src = "scissors.png" /> 
   </button>
   </div>`;
 };
