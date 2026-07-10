@@ -1,0 +1,281 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/rock_paper_scissors/pexels-adrien-olichon-2387793.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.TryAgain {
+  display: flex;
+
+  gap: 60px;
+}
+
+.rate,
+.topTable {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 100px;
+  width: 600px;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.Game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  bottom: 40%;
+}
+
+.test {
+  color: #46b9b9;
+}
+
+.nickname {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+
+  padding-bottom: 1%;
+}
+
+.title {
+  text-align: center;
+  font-size: 200%;
+  font-family: Franklin Gothic Medium;
+  color: #46b9b9;
+  margin-top: 15px;
+}
+
+.nick {
+  font-family: Franklin Gothic Medium;
+}
+
+.scoreTable {
+  margin-top: 0;
+  display: flex;
+  gap: 70px;
+}
+
+.win_table {
+  font-family: "Times New Roman";
+  font-size: 45px;
+  color: rgb(225, 225, 225);
+  margin-top: 0;
+
+  color: yellow;
+}
+
+.lose_table {
+  font-family: "Times New Roman";
+  font-size: 45px;
+  margin-top: 0;
+  color: rgb(225, 225, 225);
+
+  color: yellow;
+}
+
+.tie_table {
+  font-family: "Times New Roman";
+  font-size: 45px;
+  margin-top: 0;
+  color: rgb(225, 225, 225);
+
+  color: yellow;
+}
+
+.Table {
+  display: block;
+  text-align: center;
+  gap: 5px;
+  font-family: "Times New Roman";
+  font-size: large;
+  color: rgb(225, 225, 225);
+  color: yellow;
+}
+
+.rockIcon {
+  width: 110px;
+}
+
+.rockIcon:hover {
+  width: 130px;
+}
+
+.paperIcon {
+  width: 110px;
+}
+
+.paperIcon:hover {
+  width: 130px;
+}
+
+.scissorsIcon {
+  width: 110px;
+}
+
+.scissorsIcon:hover {
+  width: 130px;
+}
+
+.moves {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.moves p {
+  font-size: large;
+  font-weight: bold;
+  width: 140px;
+  color: #46b9b9;
+  margin-bottom: 0;
+
+  text-align: center;
+}
+
+.result {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: #46b9b9;
+  text-shadow: 0 0 15px #91fcfc;
+}
+
+.buttons {
+  display: flex;
+  gap: 40px;
+  height: 135px;
+  align-items: center;
+}
+
+.rockButton {
+  border-radius: 80px;
+  border: none;
+  background: none;
+  width: 135px;
+}
+
+.paperButton {
+  border-radius: 80px;
+  border: none;
+  background: none;
+  width: 135px;
+}
+
+.scissorsButton {
+  border-radius: 80px;
+  border: none;
+  background: none;
+  width: 135px;
+}
+
+.reset,
+.tryAgainButton,
+.delete {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  padding: 10px;
+  width: 200px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(50, 50, 50);
+
+  background-color: #358d8d;
+  transition: opacity 0.5s;
+}
+
+.delete {
+  width: 150px;
+  height: 35px;
+  border-radius: 17.5px;
+  padding: 0;
+  font-size: 21px;
+}
+
+.tryAgainButton {
+  border-radius: 35px;
+}
+
+.reset:hover,
+.tryAgainButton:hover,
+.delete:hover {
+  color: white;
+}
+
+.reset:active,
+.tryAgainButton:hover,
+.delete:active {
+  opacity: 0.6;
+}
+
+.start {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  width: 250px;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(50, 50, 50);
+
+  background-color: #358d8d;
+}
+
+.start:hover {
+  color: white;
+}
+
+.start:active {
+  opacity: 0.6;
+}
+
+.moveIcon {
+  height: 80px;
+}
+
+.movesIcons {
+  display: flex;
+  gap: 107px;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: large;
+  font-weight: bold;
+  color: #46b9b9;
+}
+
+.movesIcons p {
+  margin-top: 9px;
+}
